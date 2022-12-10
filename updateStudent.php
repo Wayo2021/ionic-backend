@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 include "config.php";
 
 $input = file_get_contents('php://input');
